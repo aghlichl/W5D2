@@ -1,0 +1,76 @@
+/* PHASE 1: Header */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: #eee;
+}
+
+.badge{
+  display:inline-block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 4px;
+}
+
+.badge:hover{
+  background: red;
+
+}
+
+.header {
+  background: #f00;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.header a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 900px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.header-logo {
+  border-right: 1px solid #ccc;
+  font-weight: 700;
+}
+
+.header-logo:hover {
+  background: #000;
+}
+
+.dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list > li {
+  border-left: 1px solid #ccc;
+}
+
+.header-list > li:hover {
+  background: #000;
+}
